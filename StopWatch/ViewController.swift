@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         pauseBtn.enabled = true
         Timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("UpdateTimer"), userInfo: nil, repeats: true)
         IsPlaying = true
+    //this is new message for test git .
         
     }
     func UpdateTimer (){
